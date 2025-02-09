@@ -19,11 +19,18 @@ h1 {
     font-size: 28px;
 }
 
-.cat-image {
-    display: block;
-    width: 200px; /* Adjust size as needed */
-    margin: 20px auto; /* Center the image */
+.image-container {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    gap: 20px; /* Spacing between the images */
+    align-items: center; /* Center the images horizontally */
 }
+
+.cat-image {
+    width: 200px;
+    height: auto;
+}
+
 
 .button-container {
     display: flex;
