@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #2d1b1b; /* Dark brown background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #ff69b4; /* Pink text */
+    font-size: 28px;
+}
+
+.cat-image {
+    display: block;
+    width: 200px; /* Adjust size as needed */
+    margin: 20px auto; /* Center the image */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between buttons */
+    margin-top: 10px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.yes-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.no-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.no-button:hover {
+    background-color: #c82333;
+}
+
+.yes-button:hover {
+    background-color: #218838;
+}
